@@ -1,0 +1,51 @@
+.footer-container{
+    background-color: #43D4B8;
+    padding: 4rem 3rem;
+}
+
+.connect-us-section{
+}
+
+.connect-us-email-section{
+    flex-basis: 70%;
+}
+
+.connect-us-image{
+    flex-basis: 30%;
+}
+
+.footer-connect-us-image{
+    max-width: 18rem;
+    height: auto;
+}
+
+/* section 2 */
+
+.social-handles-and-about{
+
+}
+
+.social-handles-about{
+    flex-basis: 35%;
+    background-color: red;
+}
+
+.social-handles-common-pages{
+    flex-basis: 20%;
+    background-color: yellow;
+}
+
+.social-handles-pages{
+    flex-basis: 20%;
+    background-color: violet;
+}
+
+.social-handles-icon{
+    flex-basis: 25%;
+    background-color: blue;
+    gap: 1rem;
+}
+
+.no-list-style{
+    list-style: none;
+}

@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* Common Flex Style */
+
+.flex-class{
+  display: flex;
+}
+
+.flex-class-column-direction{
+  display: flex;
+  flex-direction: column;
+}
+
+.common-flex-for-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
