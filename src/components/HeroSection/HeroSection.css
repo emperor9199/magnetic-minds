@@ -1,0 +1,7 @@
+
+.hero-style {
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    filter: brightness(45%);
+}
