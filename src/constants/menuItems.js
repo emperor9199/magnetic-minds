@@ -1,14 +1,94 @@
 export const menuItems = [
   {
-    title: "Home",
-    url: "/",
+    title: "About",
+    url: "web-dev",
+    submenu: [
+      {
+        title: "Frontend",
+        url: "frontend",
+      },
+      {
+        title: "Backend",
+        submenu: [
+          {
+            title: "NodeJS",
+            url: "node",
+          },
+          {
+            title: "PHP",
+            url: "php",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Blog",
+    url: "web-dev",
+    submenu: [
+      {
+        title: "Frontend",
+        url: "frontend",
+      },
+      {
+        title: "Backend",
+        submenu: [
+          {
+            title: "NodeJS",
+            url: "node",
+          },
+          {
+            title: "PHP",
+            url: "php",
+          },
+        ],
+      },
+    ],
   },
   {
     title: "Services",
-    url: "/services",
+    url: "web-dev",
+    submenu: [
+      {
+        title: "Frontend",
+        url: "frontend",
+      },
+      {
+        title: "Backend",
+        submenu: [
+          {
+            title: "NodeJS",
+            url: "node",
+          },
+          {
+            title: "PHP",
+            url: "php",
+          },
+        ],
+      },
+    ],
   },
   {
-    title: "About",
-    url: "/about",
+    title: "Contact Us",
+    url: "web-dev",
+    submenu: [
+      {
+        title: "Frontend",
+        url: "frontend",
+      },
+      {
+        title: "Backend",
+        submenu: [
+          {
+            title: "NodeJS",
+            url: "node",
+          },
+          {
+            title: "PHP",
+            url: "php",
+          },
+        ],
+      },
+    ],
   },
 ];
