@@ -1,0 +1,10 @@
+.slider-wrapper {
+  height: 62vh;
+  width: 100%;
+}
+
+.slider-wrapper > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
