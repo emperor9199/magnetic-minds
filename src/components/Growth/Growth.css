@@ -1,0 +1,36 @@
+.growth-section{
+    padding: 3rem 5% 0 5%;
+}
+
+.growth-section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.growth-section-card{
+    background-color: #43d4b8;
+    margin: 2rem 0;
+    /* gap: 4rem; */
+    /* padding: 0.5rem; */
+    justify-content: space-evenly;
+    border-radius: 0.5rem;
+}
+
+.growth-card{
+    padding: 2rem;
+    color: #fff;
+    border-right: 1px solid #fff;
+    /* background-color: red; */
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.growth-no{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.growth-text{
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+}

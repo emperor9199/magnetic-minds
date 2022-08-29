@@ -1,0 +1,76 @@
+.my-blog-section{
+    padding: 1.5rem 5% 3rem 5%;
+}
+.my-blog-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+    margin: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  padding: 20px;
+  height: 7rem;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body h4 {
+  margin-bottom: 0;
+}
+
+.card-body p {
+  font-size: 13px;
+  color: grey;
+}
+
+.my-blog-button {
+  padding: 0.7rem;
+  width: 92%;
+  margin: 1rem 4%;
+  background-color: transparent;
+  border: 2px solid #43d4b8;
+  color: #43d4b8;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: all 0.7s ease;
+}
+
+.my-blog-button:hover {
+  background-color: #43d4b8;
+  color: #fff;
+  cursor: pointer;
+}

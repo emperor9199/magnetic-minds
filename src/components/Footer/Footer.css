@@ -1,13 +1,43 @@
 .footer-container{
     background-color: #43D4B8;
-    padding: 4rem 3rem;
+    padding: 3rem 3rem 1.5rem 3rem;
+    color: #fff;
+    gap: 3rem;
+    bottom: 0 !important;
+    /* position: absolute; */
 }
 
 .connect-us-section{
+    gap: 3rem;
 }
 
 .connect-us-email-section{
     flex-basis: 70%;
+}
+
+.get-in-touch-title{
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+}
+
+.get-in-touch-input{
+    border: none;
+    background-color: transparent;
+    padding: .5rem;
+    width: 30%;
+    border-bottom: 1px solid #866e42;
+    position: absolute;
+}
+
+.get-in-touch-input::placeholder{
+    color: #fff;
+}
+
+.get-in-touch-icon{
+    padding: 0.5rem;
+    position: relative;
+    right: 0px !important;
+    left: 47%;
 }
 
 .connect-us-image{
@@ -15,37 +45,75 @@
 }
 
 .footer-connect-us-image{
-    max-width: 18rem;
+    max-width: 15rem;
     height: auto;
 }
 
 /* section 2 */
 
 .social-handles-and-about{
-
+    gap: 1rem;
 }
 
 .social-handles-about{
     flex-basis: 35%;
-    background-color: red;
 }
 
 .social-handles-common-pages{
     flex-basis: 20%;
-    background-color: yellow;
 }
 
 .social-handles-pages{
     flex-basis: 20%;
-    background-color: violet;
 }
 
 .social-handles-icon{
     flex-basis: 25%;
-    background-color: blue;
     gap: 1rem;
 }
 
 .no-list-style{
     list-style: none;
+    padding: 0;
+}
+
+li:not(:last-child) { 
+    margin-bottom: 0.5rem;  
+}
+
+li:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0.1s;
+    cursor: pointer
+}
+
+.animated-line {
+    height: 0.2rem;
+    /* height: .1rem; */
+    background-color: lightgray;
+    background-image: linear-gradient(
+      to right bottom,
+      #0FA386,
+      #1fb168,
+      #3caf42,
+      #778a32,
+      #866e42
+    );
+    width: 3rem;
+    /* width: 100%; */
+    margin: 0.5rem 0 0rem 0;
+    transition: all 0.5s ease;
+}
+
+.common-footer-sub-div:hover .animated-line{
+    width: 5rem;
+}
+
+.social-icon-list{
+    gap: 0.8rem;
+}
+
+.social-handles-about-title{
+    font-size: 1.2rem;
+    font-weight: 500;
 }
